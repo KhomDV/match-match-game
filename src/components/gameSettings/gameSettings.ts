@@ -1,4 +1,4 @@
-import { BaseComponent } from '../../shared/base-component';
+import { BaseComponent } from '../../shared/html';
 import './gameSettings.scss';
 
 export class GameSettings extends BaseComponent {

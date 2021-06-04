@@ -1,4 +1,4 @@
-import { BaseComponent } from '../../shared/base-component';
+import { BaseComponent } from '../../shared/html';
 import './registrationForm.scss';
 
 export class RegistrationForm extends BaseComponent {

@@ -1,4 +1,4 @@
-import { BaseComponent } from '../../shared/base-component';
+import { BaseComponent } from '../../shared/html';
 import './navigation.scss';
 
 export class Navigation extends BaseComponent {

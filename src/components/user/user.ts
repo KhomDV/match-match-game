@@ -1,4 +1,4 @@
-import { BaseComponent } from '../../shared/base-component';
+import { BaseComponent } from '../../shared/html';
 
 export class User extends BaseComponent {
   constructor(firstName: string, lastName: string, email: string, photo: string,

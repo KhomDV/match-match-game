@@ -1,8 +1,8 @@
-import { BaseComponent } from '../../shared/base-component';
-import './header.scss';
+import { HTMLComponent } from '../../shared/html';
+// import './header.scss';
 
-export class Header extends BaseComponent {
-  constructor() {
+export class Header extends HTMLComponent {
+  constructor(style) {
     super('header', ['header']);
     this.element.innerHTML = `
     <div class="container">
@@ -11,4 +11,9 @@ export class Header extends BaseComponent {
     </div>
     `;
   }
+
+
+
 }
+
+console.log(new Header());
