@@ -18,10 +18,10 @@ window.addEventListener('load', () => {
   if (!appElement) throw Error('No body in html document.');
   const app = new App(appElement);
   app.init();
-  app.addRegistrationForm();
-  addFile();
-  checkInput();
-  addRouting();
-  addUser();
-  clearInputValue();
+//  app.addRegistrationForm();
+//  addFile();
+//  checkInput();
+//  addRouting();
+//  addUser();
+//  clearInputValue();
 });
